@@ -416,7 +416,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2023-04-02
+                    2023-04-03
                 </div>
                 
 
@@ -494,19 +494,19 @@
 <p><img src="/../images/hexoblogcreate/image-20230402002246937.png" alt="运行成功！向成功迈出了一大步"></p>
 <h2 id="3-部署Hexo"><a href="#3-部署Hexo" class="headerlink" title="3. 部署Hexo"></a>3. 部署Hexo</h2><p>在创建博客之后，该怎么才能让他人所知道与访问呢？</p>
 <p>这便是最基本的步骤之三。</p>
-<p>部署博客一般分为两种，第一种是使用<a target="_blank" rel="noopener" href="https://github.com/" title="点击前往">Github</a>的Github Pages，第二种是使用<a target="_blank" rel="noopener" href="https://gitee.com/" title="点击前往">码云</a>的Gitee Pages。这两种均是完全免费的博客部署与托管平台。</p>
-<h3 id="3-1-通过Github部署"><a href="#3-1-通过Github部署" class="headerlink" title="3-1. 通过Github部署"></a>3-1. 通过Github部署</h3><p>使用Github部署的优点</p>
+<p>部署博客一般分为两种，第一种是使用<a target="_blank" rel="noopener" href="https://gh.com/" title="点击前往">GH</a>的GH Pages，第二种是使用<a target="_blank" rel="noopener" href="https://gitee.com/" title="点击前往">码云</a>的Gitee Pages。这两种均是完全免费的博客部署与托管平台。</p>
+<h3 id="3-1-通过GH部署"><a href="#3-1-通过GH部署" class="headerlink" title="3-1. 通过GH部署"></a>3-1. 通过GH部署</h3><p>使用GH部署的优点</p>
 <ul>
 <li>无需实名</li>
 <li>安全保障</li>
 </ul>
 <p>缺点则是访问速度<strong>非常慢</strong>，且需要<strong>魔法上网</strong>（自行解决）</p>
 <p>那么，就开始部署吧。</p>
-<p>进入<a target="_blank" rel="noopener" href="https://github.com/">Github</a>，选择<code>sign up</code>或<code>sign in</code>进行登录/注册</p>
+<p>进入<a target="_blank" rel="noopener" href="https://gh.com/">GH</a>，选择<code>sign up</code>或<code>sign in</code>进行登录/注册</p>
 <p>登录成功后，选择屏幕右上方<code>+</code>号中的<code>New epositories</code></p>
 <p><img src="/../images/hexoblogcreate/image-20230402003448234.png"></p>
 <p>在新建仓库界面里：</p>
-<p>将仓库名设置为<code>username.github.io</code>（必须）</p>
+<p>将仓库名设置为<code>username.GH.io</code>（必须）</p>
 <p>将<code>Add a README flie</code>打勾（这将会创建main分支）</p>
 <p>描述可自定或不写。</p>
 <p><img src="/../images/hexoblogcreate/image-20230402003714874.png"></p>
@@ -515,15 +515,15 @@
 <p>成功创建个人博客仓库~！</p>
 <p>接下来，进入仓库内</p>
 <p><img src="/../images/hexoblogcreate/image-20230402004246495.png"></p>
-<p>这便是我们的博客地址(<code>username.github.io</code>)。</p>
+<p>这便是我们的博客地址(<code>username.GH.io</code>)。</p>
 <hr>
 <p>在任意位置打开cmd或Git Bash Here</p>
 <p>输入</p>
-<pre class="line-numbers language-none"><code class="language-none">git config --global user.name "注册Github的用户名"
-git config --global user.email "注册Github的邮箱"<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<pre class="line-numbers language-none"><code class="language-none">git config --global user.name "注册GH的用户名"
+git config --global user.email "注册GH的邮箱"<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
 <p>接着输入</p>
-<p><code>ssh-keygen -t rsa -C "你注册Github邮箱"</code></p>
+<p><code>ssh-keygen -t rsa -C "你注册GH邮箱"</code></p>
 <p>敲4次回车</p>
 <p><img src="/../images/hexoblogcreate/image-20230402005650310.png"></p>
 <p>然后进入<code>C:\Users\你的Win用户名\.ssh\</code></p>
@@ -534,7 +534,7 @@ git config --global user.email "注册Github的邮箱"<span aria-hidden="true" c
 <p>将ssh密钥复制进框内</p>
 <p><img src="/../images/hexoblogcreate/image-20230402010758254.png" alt="复制后点击绿色按钮添加"></p>
 <p>添加成功后，在任意位置打开cmd/Git Bash Here</p>
-<p>输入<code>ssh -T git@github.com</code></p>
+<p>输入<code>ssh -T git@GH.com</code></p>
 <p>回车后输入yes（如果有）</p>
 <p>返回以下信息</p>
 <p><img src="/../images/hexoblogcreate/image-20230402011042767.png"></p>
@@ -579,7 +579,7 @@ git config --global user.email "注册Github的邮箱"<span aria-hidden="true" c
 <p>输入<code>ssh -T git@gitee.com</code></p>
 <p>回车后输入yes（如果有）</p>
 <p>返回以下信息</p>
-<p><img src="/../images/hexoblogcreate/image-20230402011042767.png" alt="(忽略那个Github)"></p>
+<p><img src="/../images/hexoblogcreate/image-20230402011042767.png" alt="(忽略那个GH)"></p>
 <p>成功！</p>
 <h2 id="4-博客文件的修改"><a href="#4-博客文件的修改" class="headerlink" title="4. 博客文件的修改"></a>4. 博客文件的修改</h2><p>基础的设置已完成，接下来是个性化的修改。</p>
 <p>打开博客根目录的<code>_config.yml</code>文件</p>
@@ -595,14 +595,14 @@ git config --global user.email "注册Github的邮箱"<span aria-hidden="true" c
 <pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token key atrule">deploy</span><span class="token punctuation">:</span>
   <span class="token key atrule">type</span><span class="token punctuation">:</span> git
   <span class="token key atrule">repository</span><span class="token punctuation">:</span> 
-  <span class="token key atrule">branch</span><span class="token punctuation">:</span>  <span class="token comment"># Github用户请更改为main</span>
+  <span class="token key atrule">branch</span><span class="token punctuation">:</span>  <span class="token comment"># GH用户请更改为main</span>
   <span class="token comment"># Gitee用户请将'branch:'这一行删掉</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <blockquote>
 <p><strong>注意：后三个冒号后一定要加空格再到值</strong></p>
 </blockquote>
 <p>其中，<code>repository</code>部分的值请复制以下值</p>
-<p>Github:</p>
+<p>GH:</p>
 <p><img src="/../images/hexoblogcreate/image-20230402015446771.png"></p>
 <p>Gitee:</p>
 <p><img src="/../images/hexoblogcreate/image-20230402015624276.png"></p>
@@ -619,7 +619,7 @@ git config --global user.email "注册Github的邮箱"<span aria-hidden="true" c
 <p><img src="/../images/hexoblogcreate/image-20230402020319863.png"></p>
 <p>已经存在了网站文件！</p>
 <p>稍后打开：</p>
-<p>Github用户：<a target="_blank" rel="noopener" href="https://username.github.io/">https://username.github.io/</a></p>
+<p>GH用户：<a target="_blank" rel="noopener" href="https://username.gh.io/">https://username.GH.io/</a></p>
 <p>Gitee用户：</p>
 <p>即可看到你生成的网站了~！</p>
 <h2 id="5-Hexo基本操作"><a href="#5-Hexo基本操作" class="headerlink" title="5. Hexo基本操作"></a>5. Hexo基本操作</h2><p>既然已经成功部署了属于自己的博客，那么应该如何去发表呢？</p>
