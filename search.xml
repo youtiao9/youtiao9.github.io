@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>使用宝塔面板部署Hexo静态博客网站</title>
+      <link href="/2023/04/05/btmb/"/>
+      <url>/2023/04/05/btmb/</url>
+      
+        <content type="html"><![CDATA[<p>测试test</p><pre class="line-numbers language-JTF" data-language="JTF"><code class="language-JTF">sytcjb.kpg.cy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><blockquote><p>林欣怡</p></blockquote>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> 博客 </tag>
+            
+            <tag> 宝塔面板 </tag>
+            
+            <tag> 服务器 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>使用Typora编辑Hexo博客时如何实现本地图片部署</title>
       <link href="/2023/03/24/hexod/"/>
       <url>/2023/03/24/hexod/</url>
